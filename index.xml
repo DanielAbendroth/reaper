@@ -14,7 +14,7 @@
       <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-15T18:37:18Z">
         <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/832510efec0340f9f8c31b5ec0cc1657c0919c5f/Tools/RFP_Remove%20content%20to%20beginning%20of%20item.lua</source>
       </version>
-      <version name="1.1" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-15T18:40:41Z">
+      <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-15T18:40:41Z">
         <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/e00153e928460893617609fcc995e23b7afdd7c3/Tools/RFP_Remove%20content%20to%20beginning%20of%20item.lua</source>
       </version>
     </reapack>
