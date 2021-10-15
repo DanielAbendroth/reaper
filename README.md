@@ -1,4 +1,4 @@
-# reaper
+# Podcast Editing Scripts for Reaper
 <h1 align="center">Reaper for Podcasting - Scripts for Podcast Editing</h1>
 
 ## How to Install
