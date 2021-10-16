@@ -1,6 +1,6 @@
--- @description Remove content to beginning of item
+-- @description Remove content to start of item
 -- @author Daniel Abendroth (Reaper for Podcasting)
--- @version 1.0
+-- @version 1.1
 -- @about
 --   This is will delete everything from the edit cursor to the beginning of the item.
 
