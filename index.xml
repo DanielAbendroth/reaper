@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Reaper for Podcasting Scripts" commit="e52bcf568617ecda4be79c3924f54e24d5c3d974">
+<index version="1" name="Reaper for Podcasting Scripts" commit="9fbceacccff98887dda556746e949f638b088df0">
   <category name="Tools">
     <reapack name="RFP_Remove content to beginning of item.lua" type="script" desc="Remove content to beginning of item">
       <metadata>
@@ -43,7 +43,7 @@
 ]]></description>
       </metadata>
       <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-16T23:33:09Z">
-        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/e52bcf568617ecda4be79c3924f54e24d5c3d974/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/9fbceacccff98887dda556746e949f638b088df0/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
       </version>
     </reapack>
   </category>
