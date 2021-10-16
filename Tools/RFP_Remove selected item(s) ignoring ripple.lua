@@ -1,9 +1,9 @@
--- @description Remove selected item(s) ignoring without ripple
+-- @description Remove selected item(s) ignoring ripple
 -- @author Daniel Abendroth (Reaper for Podcasting)
 -- @version 1.0
 -- @about
---	This will remove the item(s) that are selected without affecting any other items or tracks regarless of the ripple editing state.
---	It's great for interviews where there are short items on the non-speaking tracks that you want to remove without accidently cutting audio from the speaker.
+--   This will remove the item(s) that are selected without affecting any other items or tracks regarless of the ripple editing state.
+--   It's great for interviews where there are short items on the non-speaking tracks that you want to remove without accidently cutting audio from the speaker.
 
 
 -- @description Save ripple mode to persistent ExtState
