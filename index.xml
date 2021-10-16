@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Reaper for Podcasting Scripts" commit="8b5aedf797dfc0c6dc8e27ff5796bf048963eba8">
+<index version="1" name="Reaper for Podcasting Scripts" commit="30c9f6521c82868b63c8b04fd1407d992b6e8395">
   <category name="Tools">
-    <reapack name="RFP_Remove content to beginning of item.lua" type="script" desc="Remove content to beginning of item">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 This is will delete everything from the edit cursor to the beginning of the item.\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-16T23:44:11Z">
-        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/8b5aedf797dfc0c6dc8e27ff5796bf048963eba8/Tools/RFP_Remove%20content%20to%20beginning%20of%20item.lua</source>
-      </version>
-    </reapack>
     <reapack name="RFP_Remove content to end of item.lua" type="script" desc="Remove content to end of item">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -27,6 +13,20 @@
       </metadata>
       <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-16T23:44:11Z">
         <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/8b5aedf797dfc0c6dc8e27ff5796bf048963eba8/Tools/RFP_Remove%20content%20to%20end%20of%20item.lua</source>
+      </version>
+    </reapack>
+    <reapack name="RFP_Remove content to start of item.lua" type="script" desc="Remove content to start of item">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This is will delete everything from the edit cursor to the beginning of the item.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.1" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-16T23:47:01Z">
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/30c9f6521c82868b63c8b04fd1407d992b6e8395/Tools/RFP_Remove%20content%20to%20start%20of%20item.lua</source>
       </version>
     </reapack>
     <reapack name="RFP_Remove selected item(s) ignoring ripple.lua" type="script" desc="Remove selected item(s) ignoring ripple">
