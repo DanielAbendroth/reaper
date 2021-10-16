@@ -9,7 +9,7 @@
 -- @description Save ripple mode to persistent ExtState
 -- @author mendel
 -- @version 1.0
--- @about
+-- 
 --   # Save ripple mode to persistent ExtState
 --
 --   A most basic script that simply gets the current ripple mode, and saves it as a persistent ExtState. This state may be recalled by another script, and the ripple mode restored.
@@ -47,7 +47,7 @@ reaper.Main_OnCommand(40150,0) -- Go to play cursor
 -- @description Restore ripple mode from persistent ExtState
 -- @author mendel
 -- @version 1.0
--- @about
+-- 
 --   # Restore ripple mode from persistent ExtState
 --
 --   This script works in conjunction with "Save ripple mode to persistent ExtState". These two scripts are intended to be used as bookends for custom actions which change the ripple mode programatically. This allows a custom action to proceed as expected, leaving the user experience of the ripple mode unchanged.
