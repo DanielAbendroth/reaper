@@ -38,6 +38,7 @@ Save_Ripple_State()
 
 ---
 
+reaper.Main_OnCommand(40309,0) -- Set ripple off
 reaper.Main_OnCommand(40697,0) -- Remove item
 reaper.Main_OnCommand(40150,0) -- Go to play cursor
 
