@@ -1,11 +1,12 @@
 -- @description Remove selected item(s) ignoring ripple
 -- @author Daniel Abendroth (Reaper for Podcasting)
--- @version 1.2
+-- @version 1.2.1
 -- @about
 --   This will remove the item(s) that are selected without affecting any other items or tracks regarless of the ripple editing state.
 --   It's great for interviews where there are short items on the non-speaking tracks that you want to remove without accidently cutting audio from the speaker.
 -- @changelog
---    Cleaned up the code for handling the ripple toggle
+--    1.2.1 Acciently left in message boxes
+--    1.2 Cleaned up the code for handling the ripple toggle
 
 -- create needed functions
 function Check_Ripple_State()
