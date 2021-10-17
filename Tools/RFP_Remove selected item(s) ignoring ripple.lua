@@ -25,13 +25,10 @@ end
 function Set_Ripple_State()
   if rippleState == 'a' then
     reaper.Main_OnCommand(40311, 0)
-    reaper.ShowMessageBox('Ripple All', 'Ripple Mode', 0)
   elseif rippleState == 't' then
     reaper.Main_OnCommand(40310, 0)
-    reaper.ShowMessageBox('Ripple Track', 'Ripple Mode', 0)
   else
     reaper.Main_OnCommand(40309, 0)
-    reaper.ShowMessageBox('Ripple Off', 'Ripple Mode', 0)
   end
 end
 
