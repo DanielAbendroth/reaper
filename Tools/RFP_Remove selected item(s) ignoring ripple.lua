@@ -5,7 +5,7 @@
 --   This will remove the item(s) that are selected without affecting any other items or tracks regarless of the ripple editing state.
 --   It's great for interviews where there are short items on the non-speaking tracks that you want to remove without accidently cutting audio from the speaker.
 -- @changelog
---    Cleaned up the code
+--    Cleaned up the code for handling the ripple toggle
 
 -- create needed functions
 function Check_Ripple_State()
