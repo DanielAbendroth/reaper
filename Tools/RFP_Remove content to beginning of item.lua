@@ -4,8 +4,8 @@
 -- @about
 --   This is will delete everything from the edit cursor to the beginning of the item.
 -- @changelog
---		1.0.1
---		Minor code changes
+--    1.0.1
+--    Minor code changes
 
 reaper.Undo_BeginBlock()
 reaper.OnStopButton() --Stop

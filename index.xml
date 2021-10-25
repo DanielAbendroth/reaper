@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Reaper for Podcasting Scripts" commit="3e345568646b49bdfcf36a5449896fe0129b33eb">
+<index version="1" name="Reaper for Podcasting Scripts" commit="0cccd31cc18a47275ead1f89da499f26b653f56e">
   <category name="Tools">
     <reapack name="RFP_Remove content to beginning of item.lua" type="script" desc="Remove content to beginning of item">
       <metadata>
@@ -53,6 +53,45 @@
         <changelog><![CDATA[1.2.1 Acciently left in message boxes
 1.2 Cleaned up the code for handling the ripple toggle]]></changelog>
         <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/3e345568646b49bdfcf36a5449896fe0129b33eb/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
+      </version>
+      <version name="1.2.3" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-25T19:59:55Z">
+        <changelog><![CDATA[1.2.3
+  Minor code changes
+1.2.2
+  Added updo block
+1.2.1 
+  Accidentally left in message boxes
+1.2 
+  Cleaned up the code for handling the ripple toggle]]></changelog>
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/0cccd31cc18a47275ead1f89da499f26b653f56e/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
+      </version>
+    </reapack>
+    <reapack name="RFP_Set item volume to -10db.lua" type="script" desc="Set item volume to -10db">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This will set the volume of the audio within the time selection to -10db. This is great for dealing with really loud breaths. Known issue: doesn't behave as expected when the time selection goes beyond the selected item. Future versions will be able to handle multiple items as well as follow playback.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-25T19:59:55Z">
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/0cccd31cc18a47275ead1f89da499f26b653f56e/Tools/RFP_Set%20item%20volume%20to%20-10db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="RFP_Toggle playrate between 1 and 1.5.lua" type="script" desc="Toggle playrate between 1 and 1.5">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 You can easily toggle your playrate back and forth for faster editing. You can toggle whether or not you are currently playing audio. It will keep playing if you are currently playing audio but won't start playing if it's paused or stopped.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-25T19:59:55Z">
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/0cccd31cc18a47275ead1f89da499f26b653f56e/Tools/RFP_Toggle%20playrate%20between%201%20and%201.5.lua</source>
       </version>
     </reapack>
   </category>
