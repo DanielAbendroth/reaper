@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Reaper for Podcasting" commit="6159ec9b2ad57bbad29968f56a3a7dd9423be64d">
+<index version="1" name="Reaper for Podcasting" commit="9c114e124f50bcedf5dc62d88b100200d7f977c1">
   <category name="Tools">
     <reapack name="RFP_Remove content to beginning of item.lua" type="script" desc="Remove content to beginning of item">
       <metadata>
@@ -88,6 +88,11 @@ Minor code changes]]></changelog>
       </metadata>
       <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-25T19:59:55Z">
         <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/0cccd31cc18a47275ead1f89da499f26b653f56e/Tools/RFP_Set%20item%20volume%20to%20-10db.lua</source>
+      </version>
+      <version name="1.1" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-26T19:25:34Z">
+        <changelog><![CDATA[1.1 A lot of changes to make this work as expected.
+1.0 Initial release]]></changelog>
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/9c114e124f50bcedf5dc62d88b100200d7f977c1/Tools/RFP_Set%20item%20volume%20to%20-10db.lua</source>
       </version>
     </reapack>
     <reapack name="RFP_Toggle playrate between 1 and 1.5.lua" type="script" desc="Toggle playrate between 1 and 1.5">
