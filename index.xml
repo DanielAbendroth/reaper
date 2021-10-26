@@ -50,14 +50,14 @@ Minor code changes]]></changelog>
 ]]></description>
       </metadata>
       <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-16T23:44:11Z">
-        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/d11b4cc9c23c6e423bbe87771548a438e76947bf/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/8b5aedf797dfc0c6dc8e27ff5796bf048963eba8/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
       </version>
       <version name="1.1" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-16T23:56:36Z">
         <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/7cfe86081857975d2d19aafd22f099e313680a05/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
       </version>
       <version name="1.2" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-17T16:40:01Z">
-        <changelog><![CDATA[Cleaned up the code for handling the ripple toggle]]></changelog>
-        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/943a265aa7b37e50fae3ec29d953caec9342d1fd/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
+        <changelog><![CDATA[Cleaned up the code]]></changelog>
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/3151658dca1569517064142395e08de2e8a593c4/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
       </version>
       <version name="1.2.1" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-17T18:05:18Z">
         <changelog><![CDATA[1.2.1 Acciently left in message boxes
