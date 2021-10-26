@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Reaper for Podcasting" commit="190d64010a63d2a996bec97962214c8c8260687e">
+<index version="1" name="Reaper for Podcasting" commit="6159ec9b2ad57bbad29968f56a3a7dd9423be64d">
   <category name="Tools">
     <reapack name="RFP_Remove content to beginning of item.lua" type="script" desc="Remove content to beginning of item">
       <metadata>
@@ -82,7 +82,7 @@ Minor code changes]]></changelog>
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 This will set the volume of the audio within the time selection to -10db. This is great for dealing with really loud breaths. Known issue: doesn't behave as expected when the time selection goes beyond the selected item. Future versions will be able to handle multiple items as well as follow playback.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This will set the volume of the audio within the time selection to -10db. This is great for dealing with really loud breaths. If you don't have any time selection but do have an item selected then it will set that item to -10db. If you have no time selection or items selected then the script does nothing. You don't have to stop playback at all. It will catch back up to the play cursor so that you don't interrupt your listening.\par}
 }
 ]]></description>
       </metadata>
