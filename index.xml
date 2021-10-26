@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Reaper for Podcasting Scripts" commit="190d64010a63d2a996bec97962214c8c8260687e">
+<index version="1" name="Reaper for Podcasting" commit="190d64010a63d2a996bec97962214c8c8260687e">
   <category name="Tools">
     <reapack name="RFP_Remove content to beginning of item.lua" type="script" desc="Remove content to beginning of item">
       <metadata>
