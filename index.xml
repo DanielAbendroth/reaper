@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Reaper for Podcasting" commit="9c114e124f50bcedf5dc62d88b100200d7f977c1">
+<index version="1" name="Reaper for Podcasting" commit="e4e2ce216fd8589d86b4c04fb88131b393f29ace">
   <category name="Tools">
     <reapack name="RFP_Remove content to beginning of item.lua" type="script" desc="Remove content to beginning of item">
       <metadata>
@@ -107,6 +107,13 @@ Minor code changes]]></changelog>
       </metadata>
       <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-10-25T19:59:55Z">
         <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/0cccd31cc18a47275ead1f89da499f26b653f56e/Tools/RFP_Toggle%20playrate%20between%201%20and%201.5.lua</source>
+      </version>
+      <version name="1.1" author="Daniel Abendroth (Reaper for Podcasting)" time="2021-11-07T02:11:57Z">
+        <changelog><![CDATA[1.1
+   Now running this script will always have preserve pitch turned on
+1.0
+   Initial release]]></changelog>
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/e4e2ce216fd8589d86b4c04fb88131b393f29ace/Tools/RFP_Toggle%20playrate%20between%201%20and%201.5.lua</source>
       </version>
     </reapack>
   </category>
