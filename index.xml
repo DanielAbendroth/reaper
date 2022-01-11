@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Reaper for Podcasting" commit="e4e2ce216fd8589d86b4c04fb88131b393f29ace">
+<index version="1" name="Reaper for Podcasting" commit="c3b21105448786db45b9d9c8687bec9e83f0457b">
   <category name="Tools">
     <reapack name="RFP_Remove content to beginning of item.lua" type="script" desc="Remove content to beginning of item">
       <metadata>
@@ -74,6 +74,38 @@ Minor code changes]]></changelog>
 1.2 
   Cleaned up the code for handling the ripple toggle]]></changelog>
         <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/0cccd31cc18a47275ead1f89da499f26b653f56e/Tools/RFP_Remove%20selected%20item(s)%20ignoring%20ripple.lua</source>
+      </version>
+    </reapack>
+    <reapack name="RFP_Ripple remove content in time selection and go back 1 second.lua" type="script" desc="Ripple remove content in time selection and go back 1 second">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This is a ripple edit function that jumps back one second before the start of the edit. This way you can easily review the edit you made.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2022-01-11T18:51:14Z">
+        <changelog><![CDATA[1.0 
+   Initial release]]></changelog>
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/c3b21105448786db45b9d9c8687bec9e83f0457b/Tools/RFP_Ripple%20remove%20content%20in%20time%20selection%20and%20go%20back%201%20second.lua</source>
+      </version>
+    </reapack>
+    <reapack name="RFP_Ripple remove content in time selection during playback.lua" type="script" desc="Ripple remove content in time selection maintaining play cursor position">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This is a ripple edit function that maintains the play cursor position in relation to the speaker. This way you can cut audio while playing and you won't missed anything as the item(s) reposition.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Daniel Abendroth (Reaper for Podcasting)" time="2022-01-11T18:51:14Z">
+        <changelog><![CDATA[1.0 
+   Initial release]]></changelog>
+        <source main="main">https://github.com/ReaperforPodcasting/reaper/raw/c3b21105448786db45b9d9c8687bec9e83f0457b/Tools/RFP_Ripple%20remove%20content%20in%20time%20selection%20during%20playback.lua</source>
       </version>
     </reapack>
     <reapack name="RFP_Set item volume to -10db.lua" type="script" desc="Set item volume to -10db">
