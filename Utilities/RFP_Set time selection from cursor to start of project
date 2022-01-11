@@ -1,0 +1,12 @@
+-- @description Set time selection from cursor to start of project
+-- @author Daniel Abendroth (Reaper for Podcasting)
+-- @version 1.0
+-- @about
+--   This is a simple action to create a time selction from your cursor to the start of the project.
+-- @changelog
+--   1.0 
+--      Initial release
+
+newend = reaper.GetCursorPosition() 
+startOut, endOut = reaper.GetSet_LoopTimeRange(true, true, 0, newend, true)
+reaper.SetEditCurPos(newstart, false, true)
